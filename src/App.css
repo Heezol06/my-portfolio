@@ -1,6 +1,18 @@
 .App {
   text-align: center;
 }
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(255, 238, 205, 0.555); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fd90ad; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
 
 .App-logo {
   height: 40vmin;

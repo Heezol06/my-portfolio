@@ -2,11 +2,14 @@ import './App.css';
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import MyProjects from './component/MyProjects/MyProjects';
+import Resume from './component/Resume/Resume';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+import ContactMe from './component/ContactMe/ContactMe';
+import Footer from './component/Footer/Footer';
 
 function App() {
   return (
@@ -20,7 +23,14 @@ function App() {
        <Route exact path="/myProjects">
        <MyProjects></MyProjects>
        </Route>
+       <Route exact path="/resume">
+       <Resume></Resume>
+       </Route>
+       <Route exact path="/contactMe">
+       <ContactMe></ContactMe>
+       </Route>
        </Switch>
+       <Footer></Footer>
        </Router>
     </div>
   );
