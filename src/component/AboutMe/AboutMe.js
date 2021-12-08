@@ -8,7 +8,7 @@ const AboutMe = () => {
         <Container>
             <Row className="py-5">
                 <Col>
-                <img src="https://i.ibb.co/BKPjRLp/photo-1552374196-c4e7ffc6e126.png" className="w-100 rounded-circle" style={{border:"20px solid gray"}} alt="" />
+                <img src="https://i.ibb.co/XZGQFyp/ps.jpg" className="w-75 h-75 rounded-circle" style={{border:"20px solid gray"}} alt="" />
                 </Col>
                 <Col className="text-start p-5 text-animation-col">
                 <h6>frontend-developer</h6>
