@@ -7,14 +7,19 @@ const AboutMe = () => {
         <div  className="bg-dark text-light">
         <Container>
             <Row className="py-5">
-                <Col>
+                <Col className="">
                 <img src="https://i.ibb.co/XZGQFyp/ps.jpg" className="w-75 h-75 rounded-circle" style={{border:"20px solid gray"}} alt="" />
                 </Col>
                 <Col className="text-start p-5 text-animation-col">
                 <h6>frontend-developer</h6>
-                    <h1 className="text-animation" data-text="Shahriar-Rahman-Heezol...">Shahriar-Rahman-Heezol...</h1>
-                    <p>Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.</p>
+                    <h1 className="text-animation" data-text="Shahriar-Rahman-Heezol">Shahriar-Rahman-Heezol</h1>
+                    <p>I am Shahriar Rahman Heezol. And a fullstack junior MERN Stack developer. I have rich experience in both front end and back end development. I always try to ne unique. </p>
                     <br></br>
+                    <h4>Name: Shahriar Rahman Heezol</h4>
+                    <h4>Date of Birth: November 1, 2002</h4>
+                    <h4>Phone No: +8801629249295</h4>
+                    <h4>Email: Shahriarrahmanheezol@gmail.com</h4>
+                    <h4>Address: Tejgaon,Dhaka,Bangladesh</h4>
                     <Button style={{backgroundColor:"#ec255a"}} variant="danger" className="me-5 rounded-pill"> 
                     <a
                         className="button text-decoration-none text-light"
@@ -39,37 +44,37 @@ const AboutMe = () => {
                         <p><i className="fas fa-pencil-alt fa-3x" style={{color:"#ec255a"}}></i></p>
                     </Col>
                     <Col className="col-lg-10">
-                        <h5>Copywrite</h5>
-                        <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                        <h5>Web Design</h5>
+                        <p>I am a UI/UX designer. I always try to design unique from all other website.</p>
                     </Col>
                 </Col>
                 <Col className="text-start d-flex">
                     <Col className="col-lg-2">
-                        <p><i class="fas fa-store-alt  fa-3x" style={{color:"#ec255a"}}></i></p>
+                        <p><i class="fas fa-mobile-alt fa-3x"  style={{color:"#ec255a"}}></i></p>
                     </Col>
                     <Col className="col-lg-10">
-                        <h5>Ecommerce</h5>
-                        <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                        <h5>Responsive Design</h5>
+                        <p>Responsive is means all other device friendly. I do Responsive for phone & tab.</p>
                     </Col>
                 </Col>
             </Row>
             <Row>
                 <Col className="text-start d-flex">
                     <Col className="col-lg-2">
-                        <p><i class="fas fa-tv  fa-3x" style={{color:"#ec255a"}}></i></p>
+                        <p><i class="far fa-file-code fa-3x" style={{color:"#ec255a"}}></i></p>
                     </Col>
                     <Col className="col-lg-10">
-                        <h5>Web Design</h5>
-                        <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                        <h5>Web Development</h5>
+                        <p>Development is my fast priority. I creat many fullstack project. I good at frontend part and i would love to do this part. </p>
                     </Col>
                 </Col>
                 <Col className="text-start d-flex">
                     <Col className="col-lg-2">
-                        <p><i class="fas fa-bullhorn fa-3x" style={{color:"#ec255a"}}></i></p>
+                        <p><i class="fas fa-camera-retro fa-3x" style={{color:"#ec255a"}}></i></p>
                     </Col>
                     <Col className="col-lg-10">
-                        <h5>Copywrite</h5>
-                        <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                        <h5>Photography</h5>
+                        <p>Photography is my hobby. I am not professional at Photography but i am a quality photographer tough.</p>
                     </Col>
                 </Col>
             </Row>

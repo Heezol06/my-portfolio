@@ -19,10 +19,10 @@ const ContactMe = () => {
             e.target.reset()
         };
     return (
-        <div className="bg-dark text-white">
+        <div className="bg-dark text-white py-5">
             <Container className="py-5">
             <h1>Contact Me</h1>
-            <Row>
+            <Row className="py-5">
                 <Col>
                     <h1 style={{color:"#ec255a"}}>Get in Touch</h1>
                     <p>Have a question? Concern? Request? I’d love to hear from you. You just have to contact with me so with out hesitation contact with us. </p>

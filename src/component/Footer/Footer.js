@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="text-white bg-dark py-2 border-top">
             <Container className=" d-flex align-items-center justify-content-between">
-            <p>Designed and Developed by |<a href="https://github.com/Heezol06">Heezol</a></p>
+            <p>Developed by ||<a href="https://github.com/Heezol06">Heezol</a></p>
             <p>Copyright © 2021 S_H</p>
             <div>
             <a href="https://github.com/Heezol06" style={{color:"#ec255a"}}><i class="fab fa-github fa-xl me-3 rounded-circle"> </i></a>

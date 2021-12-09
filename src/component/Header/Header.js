@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     return (
@@ -12,18 +13,50 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
     
     <Nav>
-      <Link to="/" style={{textDecoration:"none", color:"white", marginRight:"10px",}} >
-        Home
-      </Link>
-      <Link to="/myProjects" style={{textDecoration:"none", color:"white", marginRight:"10px"}}>
-        My Project
-      </Link>
-      <Link to="/resume" style={{textDecoration:"none", color:"white",marginRight:"10px"}}>
-        Resume
-      </Link>
-      <Link to="/contactMe" style={{textDecoration:"none", color:"white",}}>
-        Contact Me
-      </Link>
+      <NavLink
+      className="hover-underline-animation"
+        to="/home"
+        activeStyle={{
+          fontWeight: "bold",
+          color: "red"
+        }}
+        style={{textDecoration:"none", color:"white", marginRight:"10px",}}
+      >
+      Home
+      </NavLink>
+      <NavLink
+      className="hover-underline-animation"
+        to="/myProjects"
+        activeStyle={{
+          fontWeight: "bold",
+          color: "red"
+        }}
+        style={{textDecoration:"none", color:"white", marginRight:"10px",}}
+      >
+      My Project
+      </NavLink>
+      <NavLink
+      className="hover-underline-animation"
+        to="/resume"
+        activeStyle={{
+          fontWeight: "bold",
+          color: "red"
+        }}
+        style={{textDecoration:"none", color:"white", marginRight:"10px",}}
+      >
+      Resume
+      </NavLink>
+      <NavLink
+      className="hover-underline-animation"
+        to="/contactMe"
+        activeStyle={{
+          fontWeight: "bold",
+          color: "red"
+        }}
+        style={{textDecoration:"none", color:"white", marginRight:"10px",}}
+      >
+      Contact Me
+      </NavLink>
     </Nav>
   </Navbar.Collapse>
   </Container>
