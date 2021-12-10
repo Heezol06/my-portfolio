@@ -10,6 +10,9 @@ import {
 } from "react-router-dom";
 import ContactMe from './component/ContactMe/ContactMe';
 import Footer from './component/Footer/Footer';
+import TravelDestination from './component/TravelDestination/TravelDestination';
+import RoyalEnfield from './component/RoyalEnfield/RoyalEnfield';
+import DailyHealthCare from './component/DailyHealthCare/DailyHealthCare';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
     <Router>
     <Header></Header>
        <Switch>
+       <Route exact path="/">
+       <Home></Home>
+       </Route>
        <Route exact path="/home">
        <Home></Home>
        </Route>
@@ -25,6 +31,15 @@ function App() {
        </Route>
        <Route exact path="/resume">
        <Resume></Resume>
+       </Route>
+       <Route exact path="/travelDestination">
+       <TravelDestination></TravelDestination>
+       </Route>
+       <Route exact path="/royalEnfield">
+       <RoyalEnfield></RoyalEnfield>
+       </Route>
+       <Route exact path="/dailyHealthCare">
+       <DailyHealthCare></DailyHealthCare>
        </Route>
        <Route exact path="/contactMe">
        <ContactMe></ContactMe>
