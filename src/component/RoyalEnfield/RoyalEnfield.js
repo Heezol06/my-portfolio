@@ -45,15 +45,15 @@ const RoyalEnfield = () => {
                     </Col>
                     <Col>
                     <div>
-                    <h2 className='text-decoration-underline'> Travel Distinction</h2>
-                       <p className='ms-5'>This is a travel booking agency website. You can book your travel destination and add a new destination where you want to travel. This site is base on Javascript, React, Css, html5 this is an responsive and smooth site you can use is very easily. This is very handy there have many info about our hospital you can take many services from this site. This site is very fast to render.</p>
+                    <h2 className='text-decoration-underline'>Royal Enfield</h2>
+                       <p className='ms-5'>This is a bike showroom & booking website. You can book your bike and admin can add a new bike. This site is base on Javascript, React, Node js, Express, MongoDB, Css, html5 this is an responsive and smooth site you can use is very easily. This is very handy there have many info about our bikes you can take many services for your bike on this site. This site is very fast to render.</p>
                        <ul className='d-flex flex-column align-items-center justify-content-center'>
                          <h1>Features</h1>
-                         <li className='text-start'>This is an react based website.</li>
-                         <li>Privet route also included.</li>
-                         <li>We use authentication system on our site.</li>
-                         <li>And this is a responsive site for phone also.</li>
-                         <li>There have routing system dynamic route system.</li>
+                         <li className='text-start'>This project is full stack project.</li>
+                         <li>This side is based on a most popular bike brand your can buy bike from here.</li>
+                         <li>It's a react and firebase project.</li>
+                         <li>This project is based on mongodb.</li>
+                         <li>We also use nested route mui and react bootstrap.</li>
                        </ul>
                         <ProgressBar className='ms-5 my-4' variant="danger" now={now} label={`JavaScript ${now}%`} />
                         <ProgressBar className='ms-5 my-4' variant="danger" now={nowCss} label={`${nowCss}%`} />
