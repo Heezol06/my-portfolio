@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className="text-white bg-dark py-2 border-top">
-            <Container className=" d-flex align-items-center justify-content-between">
+        <div className="text-white bg-dark py-2 border-top ">
+            <Container className=" d-flex align-items-center justify-content-between footer-media">
             <p>Developed by ||<a href="https://github.com/Heezol06">Heezol</a></p>
             <p>Copyright © 2021 S_H</p>
             <div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './MyProject.css'
 
 const MyProjects = () => {
     return (
@@ -10,9 +11,10 @@ const MyProjects = () => {
                     <div className="d-inline-flex justify-content-center mt-4">
                     <h2 className=" p-3  rounded-pill text-white" style={{backgroundColor:"#22577E"}}>My Most Recent <span style={{color:"#ec255a"}}>Projects</span> </h2>
                     </div>
-               <Col className="d-flex my-5">
+               <Col className="d-flex my-5 project-media" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
                  <Col>
-                    <div class="card text-dark" style={{width: "18rem", height: "600px"}}>
+                    <div class="card text-dark card-media" style={{width: "18rem", height: "600px"}}>
                         <img src="https://i.ibb.co/ssq8Fvc/v-Fa-X5x-F98q.png" class="card-img-top img-fluid h-75"  alt="..." />
                         <div class="card-body">
                             <h3>Travel Destination</h3>
@@ -26,7 +28,7 @@ const MyProjects = () => {
                     </div>
                 </Col>
                 <Col>
-                    <div class="card text-dark" style={{width: "18rem", height: "600px"}}>
+                    <div class="card text-dark card-media" style={{width: "18rem", height: "600px"}}>
                         <img src="https://i.ibb.co/pJXxVx4/5-IC84-Ba-ETz-1-1.png" class="card-img-top img-fluid h-75"  alt="..." />
                         <div class="card-body">
                             <h3>Royal Enfield</h3>
@@ -40,7 +42,7 @@ const MyProjects = () => {
                     </div>
                 </Col>
                 <Col>
-                    <div class="card text-dark" style={{width: "18rem", height: "600px"}}>
+                    <div class="card text-dark card-media" style={{width: "18rem", height: "600px"}}>
                         <img src="https://i.ibb.co/B4c48Q6/Wuo-Q8g-Zunc.png" class="card-img-top img-fluid h-75"  alt="..." />
                         <div class="card-body">
                             <h3>Daily -Health- Care</h3>

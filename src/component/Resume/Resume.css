@@ -1,0 +1,8 @@
+@media only screen and (max-width: 768px) {
+  .resume-media {
+    width: 213px;
+  }
+  body {
+    background-color: rgb(46, 46, 46);
+  }
+}

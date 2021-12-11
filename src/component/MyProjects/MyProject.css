@@ -1,0 +1,9 @@
+@media only screen and (max-width: 768px) {
+  .project-media {
+    display: block !important;
+    margin-left: 50px;
+  }
+  .card-media {
+    margin-bottom: 30px !important;
+  }
+}

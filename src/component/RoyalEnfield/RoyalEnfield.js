@@ -44,7 +44,7 @@ const RoyalEnfield = () => {
                           </Carousel>
                     </Col>
                     <Col>
-                    <div>
+                    <div data-aos="zoom-in-up">
                     <h2 className='text-decoration-underline'>Royal Enfield</h2>
                        <p className='ms-5'>This is a bike showroom & booking website. You can book your bike and admin can add a new bike. This site is base on Javascript, React, Node js, Express, MongoDB, Css, html5 this is an responsive and smooth site you can use is very easily. This is very handy there have many info about our bikes you can take many services for your bike on this site. This site is very fast to render.</p>
                        <ul className='d-flex flex-column align-items-center justify-content-center'>
@@ -58,9 +58,9 @@ const RoyalEnfield = () => {
                         <ProgressBar className='ms-5 my-4' variant="danger" now={now} label={`JavaScript ${now}%`} />
                         <ProgressBar className='ms-5 my-4' variant="danger" now={nowCss} label={`${nowCss}%`} />
                         <ProgressBar className='ms-5' variant="danger" now={nowHtml} label={`${nowHtml}%`} />
-                        <div className='my-5'>
-                          <a href="https://github.com/Heezol06/royal-enfield-server"> <Button className="btn-danger me-5">Git-Server-link</Button> </a>
-                          <a href="https://github.com/Heezol06/royel-enfield-client"> <Button className="btn-danger">Git-Client-link</Button> </a>
+                        <div className='my-5 button-media'>
+                          <a href="https://github.com/Heezol06/royal-enfield-server"> <Button className="btn-danger me-5 my-5">Git-Server-link</Button> </a>
+                          <a href="https://github.com/Heezol06/royel-enfield-client my-5"> <Button className="btn-danger">Git-Client-link</Button> </a>
                         </div>
                     </div>
                     </Col>

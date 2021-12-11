@@ -45,7 +45,8 @@ const TravelDestination = () => {
                           </Carousel>
                     </Col>
                     <Col>
-                    <div><h2 className='text-decoration-underline'> Travel Distinction</h2>
+                    <div data-aos="zoom-in-up">
+                      <h2 className='text-decoration-underline'> Travel Distinction</h2>
                        <p className='ms-5'>This is a travel booking agency website. You can book your travel destination and add a new destination where you want to travel. This site is base on Javascript, React, Css, html5 this is an responsive and smooth site you can use is very easily. This is very handy there have many info about our hospital you can take many services from this site. This site is very fast to render.</p>
                        <ul className='d-flex flex-column align-items-center justify-content-center'>
                          <h1>Features</h1>
@@ -59,7 +60,7 @@ const TravelDestination = () => {
                         <ProgressBar className='ms-5 my-4' variant="danger" now={nowCss} label={`${nowCss}%`} />
                         <ProgressBar className='ms-5' variant="danger" now={nowHtml} label={`${nowHtml}%`} />
                         <div className='my-5'>
-                          <a href="https://github.com/Heezol06/travel-destination-ass-11-server"> <Button className="btn-danger me-5">Git-Server-link</Button> </a>
+                          <a href="https://github.com/Heezol06/travel-destination-ass-11-server"> <Button className="btn-danger me-5 my-5">Git-Server-link</Button> </a>
                           <a href="https://github.com/Heezol06/travel-destination-ass-11-client"> <Button className="btn-danger">Git-Client-link</Button> </a>
                         </div>
                     </div>

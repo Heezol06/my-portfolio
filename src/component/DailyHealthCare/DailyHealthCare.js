@@ -44,7 +44,7 @@ const DailyHealthCare = () => {
                           </Carousel>
                     </Col>
                     <Col>
-                    <div>
+                    <div data-aos="zoom-in-up">
                     <h2 className='text-decoration-underline'>Daily -Health- Care</h2>
                        <p className='ms-5'>This site is base on Javascript, React, Css, html5 this is an responsive and smooth site you can use is very easily. This is very handy there have many info about our hospital you can take many services from this site. This site is very fast to render.</p>
                        <ul className='d-flex flex-column align-items-center justify-content-center'>

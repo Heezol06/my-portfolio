@@ -23,7 +23,7 @@ const ContactMe = () => {
             <Container className="py-5">
             <h1>Contact Me</h1>
             <Row className="py-5">
-                <Col>
+                <Col data-aos="zoom-out-right">
                     <h1 style={{color:"#ec255a"}}>Get in Touch</h1>
                     <p>Have a question? Concern? Request? I’d love to hear from you. You just have to contact with me so with out hesitation contact with us. </p>
                       <div className="text-start">
@@ -48,7 +48,7 @@ const ContactMe = () => {
                                 <p className="ms-5">01629249295</p>
                         </div>          
                 </Col>
-                <Col>
+                <Col data-aos="zoom-out-left">
                 <Form onSubmit={sendEmail}>
                 <div className="d-flex">
                 <Form.Group className="mb-3 me-5" controlId="exampleForm.ControlInput1">
