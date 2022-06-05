@@ -59,7 +59,7 @@ const MyProjects = () => {
                             <div class="card text-dark card-media" style={{ width: "18rem", height: "600px" }}>
                                 <img src="https://i.ibb.co/FgMW8jF/76j-UXk8-Fl7.jpg" class="card-img-top img-fluid h-75" alt="..." />
                                 <div class="card-body">
-                                    <h3>Daily -Health- Care</h3>
+                                    <h3>Nest</h3>
                                     <p class="card-text text-dark"><span style={{ color: "#ec255a" }}>Nest</span>It is a e-commerce website you can buy all of you want.</p>
                                     <div className="d-flex justify-content-evenly">
                                         <a href="https://team-project-003.web.app/"><button className="btn btn-info rounded-pill text-white">Preview</button></a>
